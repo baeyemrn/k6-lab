@@ -46,3 +46,7 @@ Request Rate = 0.7/s
 p(95) Response Time = 828.66ms
 Virtual Users = 3
 Request Duration  = 3 นาที
+
+Step A3
+Response Time เพิ่มขึ้นหรือไม่ เมื่อเพิ่ม Users จาก 3 เป็น 5?
+ตอบ  ลดลงเหลือ p(95)=544.29ms
