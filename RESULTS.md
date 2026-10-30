@@ -1,0 +1,1 @@
+http_req_duration..............: avg=2.45s min=2.45s med=2.45s max=2.45s p(90)=2.45s p(95)=2.45s
