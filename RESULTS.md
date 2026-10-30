@@ -12,3 +12,11 @@ iteration, and how long that takes.
 
 Step0.3
 iterations = 20
+
+Step 0.6
+k6 run 06-thresholds.js : Exit Code = running (0m31.2s), 0/3 VUs, 66 complete and 0 interrupted iterations
+default ✓ [======================================] 3 VUs  30s
+
+k6 run -e P95=300 06-thresholds.js : Exit Code = running (0m31.2s), 0/3 VUs, 45 complete and 0 interrupted iterations
+default ✓ [======================================] 3 VUs  30s
+ERRO[0031] thresholds on metrics 'http_req_duration' have been crossed 
