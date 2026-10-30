@@ -20,3 +20,10 @@ default ✓ [======================================] 3 VUs  30s
 k6 run -e P95=300 06-thresholds.js : Exit Code = running (0m31.2s), 0/3 VUs, 45 complete and 0 interrupted iterations
 default ✓ [======================================] 3 VUs  30s
 ERRO[0031] thresholds on metrics 'http_req_duration' have been crossed 
+
+Step 0.7
+ผลลัพธ์รอบแรก
+p(95) = 1.31s failed
+p(99) = 1.46s passed
+
+exit code = 99
